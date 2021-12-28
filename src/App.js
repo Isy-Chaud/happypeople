@@ -6,6 +6,9 @@ import logoabc from './img/LogoABC.png';
 import logoIsat from './img/LogoIsat.png';
 import logoSckapital from './img/SCKAPITAL-01.png';
 import logoHptv from './img/hptv.jpg';
+import Hptravel from './img/hptravel.jpg';
+import Hpsecurity from './img/hpsecurity.png';
+import Zandonet from './img/zandonet.png';
 
 function App() {
   return (
@@ -36,7 +39,7 @@ function App() {
                         <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
                             <h3 className="mb40 mb-xs-32">Une entreprise oeuvrant dans les domaines de sous traitence</h3>
                             <p className="lead mb0">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                Vous voulez acheter?,vendre?, besoins d'un service, assistance ou soutien? Nous sommes la pour vous HappyPeopleService une entreprise pas comme les autres
                             </p>
                         </div>
                     </div>
@@ -218,25 +221,21 @@ function App() {
                             <div className="feature bg-secondary p32 pt40 pb40 mb0">
                                 <span className="fade-1-4 mb16 display-block">Happy People Travel est une agence qui organise de voyage</span>
                                 <h4 className="mb120">Voyage touristique, d'etude, d'affaire et autres</h4>
-                                <img alt="logoSckapital" src />
+                                <img alt="logohptravel" src={Hptravel} />
                             </div>
                         </div>
                         <div className="masonry-item col-md-4 col-sm-6">
                             <div className="feature bg-secondary p32 pt40 pb40 mb0">
                                 <span className="fade-1-4 mb16 display-block">Happy People Security une structure engagees pour la securite des personnes et leur biens</span>
                                 <h4 className="mb120">Entreprise, maisons, hopitaux, demenagement et depannage</h4>
-                                <a href="#" className="mb0 right">
-                                    <h6 className="uppercase mb0 color-primary fade-on-hover">Read Story
-                                        <i className="ti-arrow-right"></i>
-                                    </h6>
-                                </a>
+                                <img alt="logohpsecurity" src={Hpsecurity} />
                             </div>
                         </div>
                         <div className="masonry-item col-md-4 col-sm-6">
                             <div className="feature bg-secondary p32 pt40 pb40 mb0">
                                 <span className="fade-1-4 mb16 display-block">Zandonet est une direction specialiser dans le domaine alimentaire ventes des produits</span>
                                 <h4 className="mb120">Aliment bio, viande, poisson frais, legumes, poissons sale, chenille et l'eau(Happy water)</h4>
-                                <img alt="logohptv"  />
+                                <img alt="logozandonet" src={Zandonet}  />
                             </div>
                         </div>
                         <div className="masonry-item col-md-4 col-sm-6">
