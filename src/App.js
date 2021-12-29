@@ -9,6 +9,10 @@ import logoHptv from './img/hptv.jpg';
 import Hptravel from './img/hptravel.jpg';
 import Hpsecurity from './img/hpsecurity.png';
 import Zandonet from './img/zandonet.png';
+import ImperialSong from './img/imperialSong.png';
+import OneAction from './img/oneaction.png';
+import JerusalemChurch from './img/jerusalemChurch.png';
+import Empire from './img/empire.png';
 
 function App() {
   return (
@@ -73,51 +77,51 @@ function App() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center overflow-hidden">
-                            <h5 className="uppercase text-center fade-half mb64 mb-xs-32">Selected Clients</h5>
+                            <h5 className="uppercase text-center fade-half mb64 mb-xs-32">partenaireS</h5>
                             <div className="col-sm-6">
                                 <ul>
                                     <li>
-                                        <h6 className="uppercase mb8">Apple</h6>
+                                        <h6 className="uppercase mb8">Finca,western union, Rawbank, BCDC</h6>
                                     </li>
                                     <li>
-                                        <h6 className="uppercase mb8">Acorn Technology</h6>
+                                        <h6 className="uppercase mb8">Instaprint</h6>
                                     </li>
                                     <li>
-                                        <h6 className="uppercase mb8">Google</h6>
+                                        <h6 className="uppercase mb8">Complast, Bracongo</h6>
                                     </li>
                                     <li>
-                                        <h6 className="uppercase mb8">Gourmet Traveller</h6>
+                                        <h6 className="uppercase mb8">Studio Dakrecords,STUDIO JAZZ,MSON MULOMBI</h6>
                                     </li>
                                     <li>
-                                        <h6 className="uppercase mb8">Broadsheet</h6>
+                                        <h6 className="uppercase mb8"> SOCIETE NRI</h6>
                                     </li>
                                     <li>
-                                        <h6 className="uppercase mb8">Padre Food Co.</h6>
+                                        <h6 className="uppercase mb8">AMANI TRAVEL</h6>
                                     </li>
                                     <li>
-                                        <h6 className="uppercase mb8">Foundry</h6>
+                                        <h6 className="uppercase mb8">Mson FREddyS IMPRIMANTE</h6>
                                     </li>
                                 </ul>
                             </div>
                             <div className="col-sm-6">
                                 <ul>
                                     <li>
-                                        <h6 className="uppercase mb8">BOSE</h6>
+                                        <h6 className="uppercase mb8">Eglise la borne</h6>
                                     </li>
                                     <li>
-                                        <h6 className="uppercase mb8">Kilgour Wines</h6>
+                                        <h6 className="uppercase mb8">institut superieur de commerce</h6>
                                     </li>
                                     <li>
-                                        <h6 className="uppercase mb8">University of Victoria</h6>
+                                        <h6 className="uppercase mb8">departement de l'education des etats-unis</h6>
                                     </li>
                                     <li>
-                                        <h6 className="uppercase mb8">MOMA NYC</h6>
+                                        <h6 className="uppercase mb8">Ministere de l'education et de formation proffessionelle(ESPAGNE)</h6>
                                     </li>
                                     <li>
-                                        <h6 className="uppercase mb8">Belltower Ltd.</h6>
+                                        <h6 className="uppercase mb8">Ministere de l'ensegnement primaire,secondaire et techniques(EPST-INPP)</h6>
                                     </li>
                                     <li>
-                                        <h6 className="uppercase mb8">Bowers & Wilkins</h6>
+                                        <h6 className="uppercase mb8">Ministere de l'education nationale francaise(institut francaise)</h6>
                                     </li>
                                 </ul>
                             </div>
@@ -163,11 +167,7 @@ function App() {
                             <div className="feature bg-secondary p32 pt40 pb40 mb0">
                                 <span className="fade-1-4 mb16 display-block">Imperialsong une structure oeuvrant dans le domaine de production:</span>
                                 <h4 className="mb120">Musique, cinema, livres, evenement</h4>
-                                <a href="#" className="mb0 right">
-                                    <h6 className="uppercase mb0 color-primary fade-on-hover">Read Story
-                                        <i className="ti-arrow-right"></i>
-                                    </h6>
-                                </a>
+                                <img alt="imperialSOng" src={ImperialSong} />
                             </div>
                         </div>
                         <div className="masonry-item col-md-4 col-sm-6">
@@ -181,11 +181,7 @@ function App() {
                             <div className="feature bg-secondary p32 pt40 pb40 mb0">
                                 <span className="fade-1-4 mb16 display-block">One action for children </span>
                                 <h4 className="mb120">Assistant les enfants orphelins, les eleves ou etudiants en difficulter d'etude</h4>
-                                <a href="#" className="mb0 right">
-                                    <h6 className="uppercase mb0 color-primary fade-on-hover">Read Story
-                                        <i className="ti-arrow-right"></i>
-                                    </h6>
-                                </a>
+                                <img alt="oneAction" src={OneAction} />
                             </div>
                         </div>
                     </div>
@@ -206,7 +202,7 @@ function App() {
                             <div className="feature bg-secondary p32 pt40 pb40 mb0">
                                 <span className="fade-1-4 mb16 display-block">Jerusalem church une eglise en jesus christ ou nous assistons les fidels par:</span>
                                 <h4 className="mb120">Prieres, soins de sante, assistance social et vos contributions sont le bienvenues</h4>
-                                    <img alt="logoABc" src/>
+                                    <img alt="logoABc" src={JerusalemChurch}/>
                                 
                             </div>
                         </div>
@@ -214,7 +210,7 @@ function App() {
                             <div className="feature bg-secondary p32 pt40 pb40 mb0">
                                 <span className="fade-1-4 mb16 display-block">Happy people Empire </span> 
                                 <h4 className="mb120">Une cite construite aux normes internationaux</h4>
-                                <img alt="logoisat" src />
+                                <img alt="logoisat" src={Empire} />
                             </div>
                         </div>
                         <div className="masonry-item col-md-4 col-sm-6">
